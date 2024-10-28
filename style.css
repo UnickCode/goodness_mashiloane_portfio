@@ -1,0 +1,1168 @@
+
+
+
+body{
+padding: 0px;
+opacity: 0;
+transition: opacity 1s ease-in-out;
+
+}
+
+
+a{
+
+color: white;
+
+}
+
+
+body.fade-in{
+
+opacity: 1;
+
+}
+
+nav ul{
+gap: 30px;
+margin-right: 5%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+
+
+.nav-links{
+
+
+font-size: 25px;
+
+
+}
+
+
+
+.side-bar li{
+
+cursor: pointer;
+
+}
+
+
+
+.side-bar li::after{
+
+height: 2px;
+transition: width 0.5s ease-in-out;
+
+
+}
+
+
+
+.side-bar li.active{
+
+
+text-decoration: underline;
+color: white;
+
+}
+
+
+
+.side-bar li.active::after{
+
+width: 100%;
+
+}
+
+
+li{
+
+list-style: none;
+
+}
+
+
+#hero{
+
+border-radius: 0px 0px 0px 0px;
+border: none;
+
+
+}
+
+
+.card-img{
+
+
+border-radius: 0px 0px 0px 0px;
+height: 600px;
+
+}
+
+
+nav{
+padding-left: 0px;
+position: fixed;
+width: 100%;
+z-index: 1000;
+border: 2px solid green;
+color: white;
+background: green;
+margin-top: -1px;
+
+}
+
+
+
+.headline{
+
+margin-top: 15rem;
+color: white;
+
+}
+
+
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.headline-topic{
+
+font-weight: 400;
+font-family: "Anton", sans-serif;
+font-style: normal;
+font-size: 450%;
+
+}
+
+
+.headline-topic1{
+font-weight: 400;
+font-family: "Anton", sans-serif;
+font-style: normal;
+font-size: 450%;
+
+}
+
+
+
+
+.gradient{
+
+
+height:  600px;
+background: linear-gradient(to right, rgba(0, 128, 0, 1) 0%, rgba(0, 128, 0, 0)100%);
+
+
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.subheadline{
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 110%;
+
+}
+
+
+
+.btn-cv{
+
+border: none;
+background: green;
+color: white;
+width: 11rem;
+height: 2rem;
+margin-left: 15rem;
+border-radius: 15px 15px 15px 15px;
+
+}
+
+
+.btn-cv:hover{
+
+background: white;
+color: black;
+
+}
+
+
+
+
+.user-name{
+
+margin-top: 10rem;
+
+}
+
+
+
+
+
+
+.name{
+
+
+font-weight: 900;
+  font-family: "Poppins", sans-serif;
+font-size: 3rem;
+font-style: italic;
+color: rgb(85, 107, 47);
+
+}
+
+
+.email-envelope{
+
+font-size: 2rem;
+margin-left: -20px;
+color: rgb(85, 107, 47);
+
+}
+
+
+.email-ref{
+
+padding-top: 10px;
+padding-left: 15px;
+font-size: 20px;
+color: rgb(85, 107, 47);
+
+}
+
+
+
+
+.about{
+
+margin-top: 2rem;
+
+
+}
+
+
+
+
+
+.about-border{
+
+color: white;
+margin-top: 2rem;
+border: 2px solid green;
+background: green;
+height: 45px;
+width: 65%;
+border-radius: 10px 0px 0px 10px;
+
+}
+
+
+
+
+.story{
+
+margin-top: 5rem;
+border: 2px solid black;
+border-radius: 10px 10px 10px 10px;
+width: 100%;
+height: 100px;
+
+
+}
+
+
+
+
+.card-text{
+
+
+font-family: Arial, sans-serif;
+font-size: 120%;
+
+}
+
+
+
+.school{
+
+ font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+margin-top: 25rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+
+.school2{
+
+ font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+margin-top: 40rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+
+
+.school-names{
+
+
+height: 700px;
+width: 5%;
+
+
+}
+
+
+.timeline{
+
+border: 1px solid black;
+height: 1200px;
+width: 0px;
+
+}
+
+
+
+
+
+.points{
+
+
+border: 1px solid black;
+height: 75rem;
+width: 15px;
+
+}
+
+
+.point-adust{
+
+margin-top: 15rem;
+border: 1px solid black;
+height: 0px;
+width: 15px;
+
+}
+
+
+
+.point-adust2{
+
+margin-top: 32rem;
+border: 1px solid black;
+height: 0px;
+width: 15px;
+
+}
+
+
+.points2{
+
+border: 1px solid black;
+height: 38rem;
+width: 15px;
+
+}
+
+
+
+.completion{
+
+ font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+white-space: nowrap;
+margin-top: -1rem;
+margin-left: 25px;
+
+
+}
+
+
+
+
+.graduation-cap{
+
+font-size: 300%;
+margin-top: -2rem;
+margin-left: 5rem;
+color: rgb(85, 107, 47);
+
+}
+
+
+
+.daspoort{
+
+font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+color: rgb(85, 107, 47);
+
+
+}
+
+
+
+
+.about-studies{
+
+
+margin-top: 1rem;
+
+
+}
+
+
+.about-studies2{
+
+
+margin-top: 10rem;
+
+
+}
+
+
+.my-story{
+
+width: 100%;
+margin-top: 3rem; 
+background: green; 
+color: white;
+
+
+}
+
+
+
+
+.daspoort-story{
+
+
+width: 100%;
+background: green; 
+margin-bottom: 5rem;
+color: white;
+
+
+}
+
+
+
+
+.title{
+
+padding-top: 5px;
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: italic;
+font-size: 180%;
+
+}
+
+
+
+
+.skills{
+
+margin-top: 10rem;
+
+
+}
+
+
+
+.card-title-decoration{
+
+font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 110%;
+
+text-decoration: underline;
+text-decoration-color: green;
+text-decoration-thickness: 3px; 
+
+}
+
+
+
+
+
+
+.skill{
+
+
+margin-top: 2rem;
+padding-left: 25px;
+
+
+}
+
+
+
+.skill-list{
+
+list-style: circle;
+padding-top: 10px;
+
+
+}
+
+
+.skill-list::marker{
+
+color: green;
+
+}
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+.graduation-cap{
+
+font-size: 300%;
+margin-top: -2rem;
+margin-left: 0px;
+color: rgb(85, 107, 47);
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+.completion{
+
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-size: 120%;
+font-style: italic;
+white-space: nowrap;
+margin-top: -1rem;
+margin-left: 25px;
+
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+.timeline{
+
+border: 1px solid black;
+height: 1500px;
+width: 0px;
+
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+
+.points{
+
+
+border: 1px solid black;
+height: 46rem;
+width: 15px;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+
+
+
+.points2{
+
+
+border: 1px solid black;
+height: 48rem;
+width: 15px;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+
+
+.point-adust2{
+
+margin-top: 41rem;
+border: 1px solid black;
+height: 0px;
+width: 15px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+.school2{
+
+margin-top: 50rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+.email-envelope{
+
+font-size: 2rem;
+margin-left: 0px;
+color: rgb(85, 107, 47);
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+.card-img{
+
+display: block;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+.headline-topic{
+
+font-weight: bold;
+font-family: Arial, sans-serif;
+font-size: 3rem;
+white-space: nowrap;
+margin-right: 1rem;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+.headline-topic{
+font-weight: 400;
+font-family: "Anton", sans-serif;
+font-style: normal;
+font-size: 4rem;
+white-space: nowrap;
+margin-top: 2rem;
+margin-right: 1rem;
+}
+
+
+}
+
+
+
+@media (min-width: 992px){
+
+.headline-topic{
+font-weight: 400;
+font-family: "Anton", sans-serif;
+font-style: normal;
+font-size: 4rem;
+white-space: nowrap;
+margin-top: 2rem;
+margin-right: 1rem;
+}
+
+
+
+}
+
+
+@media (min-width: 992px){
+
+
+
+.headline-topic1{
+font-weight: 400;
+font-family: "Anton", sans-serif;
+font-style: normal;
+font-size: 4rem;
+white-space: nowrap;
+margin-right: 1rem;
+}
+
+
+
+}
+
+
+@media (min-width: 992px){
+
+
+
+.headline{
+
+margin-top: 10rem;
+
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+.headline-topic1{
+
+font-weight: bold;
+font-family: Arial, sans-serif;
+font-size: 3rem;
+white-space: nowrap;
+margin-right: 1rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+
+.btn-cv{
+
+border: none;
+background: green;
+color: white;
+width: 11rem;
+height: 2rem;
+margin-left: 10rem;
+border-radius: 15px 15px 15px 15px;
+
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 767px) and (orientation: portrait) {
+
+
+
+.visible{
+
+display: none;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation:landscape ) {
+
+
+
+
+.skill{
+
+width: 100%;
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation:landscape ) {
+
+
+
+
+.card-title-university{
+
+
+white-space: nowrap;
+font-size: 120%;
+
+
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+
+.card-title-university{
+
+
+font-size: 109%;
+
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+
+.daspoort{
+
+white-space: nowrap;
+max-width: 100%;
+font-size: 110%;
+
+}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+
+
+
+
+nav ul{
+gap: 30px;
+margin-right: 8%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+.points2{
+
+margin-top: 36rem;
+border: 1px solid black;
+height: 0px;
+width: 15px;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+
+
+.school2{
+
+margin-top: 42rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+
+
+.school2{
+
+margin-top: 35rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (orientation: portrait){
+
+
+
+
+.school2{
+
+margin-top: 35rem;
+transform: rotate(-90deg);
+white-space: nowrap;
+transform-origin: center; 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
